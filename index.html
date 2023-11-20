@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Laundry</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/add.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="splash">
+        <h1 class="fade-in">Welcome To App Laundry!</h1>
+    </div>
+    
+    <div class="container">
+        <h2>Aplikasi Laundry</h2>
+    
+        <form id="crud-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+
+            <label for="address">Alamat:</label>
+            <input type="text" id="address" required>
+
+            <label for="nmr">No.Telp:</label>
+            <input type="text" id="nmr" required>
+
+            <button type="button" onclick="createData()">Tambah Data</button>
+            
+            <table id="data-table">
+                <tr>
+                    <th>Nama</th>
+                    <th>Alamat</th>
+                    <th>No.Telp</th>
+                    <th>Action</th>
+                </tr>
+            </table><br>
+            <button><a href="pesan.html" class="button">Pesan</a></button>
+        </form>
+    
+        
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/register.js"></script>
+    <script src="assets/js/add.js"></script>
+    <script src="assets/js/splashscreen.js"></script>
+</body>
+
+</html>

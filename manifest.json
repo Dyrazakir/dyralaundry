@@ -1,0 +1,21 @@
+{
+  "name": "Aplikasi laundry",
+  "short_name": "Laundry",
+  "description": "Membuat Aplikasi PWA Pertama",
+  "icons": [
+      {
+          "src": "assets/images/laundry.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "assets/images/laundry-1.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#21cdf3",
+  "background_color": "#c8cbcc"
+}
